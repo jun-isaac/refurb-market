@@ -58,7 +58,6 @@ function showProducts(obj) {
 			<div class="info">
 			<div class="product-name">
 					<span class="category">${category}</span>
-					<span class="refurb">${refurb}</span>
 				</div>
 				<p class="title">${name}</p>
 				<div class="all-price">
@@ -87,7 +86,6 @@ function showProducts(obj) {
 			<div class="info">
 				<div class="product-name">
 					<span class="category">${category}</span>
-					<span class="refurb">${refurb}</span>
 				</div>
 				<p class="title">${name}</p>
 				<p class="price"><span>₩</span>${price}</p>
