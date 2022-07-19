@@ -11,7 +11,7 @@ function getData() {
 			showProducts(obj);
 			console.log(obj);
 		});
-		
+
 }
 
 function showProducts(obj) {
@@ -21,11 +21,11 @@ function showProducts(obj) {
 	// ? URL query문을 object(변수)로 변경
 	let params = new URLSearchParams(query).get('category');
 
-		// params == null이면 ( 시작 페이지 모든 제품 출력 )
-		if (params == null || params == 'all') {
-			params = null
-		}
-		console.log(params);
+	// params == null이면 ( 시작 페이지 모든 제품 출력 )
+	if (params == null || params == 'all') {
+		params = null
+	}
+	console.log(params);
 
 	// 상품 데이터 출력
 	obj.forEach(function (product, i) {
@@ -40,30 +40,30 @@ function showProducts(obj) {
 		let imgUrl2 = product.image[1];
 		let imgUrl3 = product.image[2];
 		let text = product.text;
-		console.log(category);	
+		console.log(category);
 
 		// 카테고리 별로 보기
 		if (params == product.brand) {
 			let html = `
-		<div class="product" data-id=${i}>
-		<div class="swiper mySwiper">
-			<div class="swiper-wrapper">
-			<div class="swiper-slide"><img src="${imgUrl1}" alt=${name}></div>
-			<div class="swiper-slide"><img src="${imgUrl2}" alt=${name}></div>
-			<div class="swiper-slide"><img src="${imgUrl3}" alt=${name}></div>
-		</div>
-	<div class="swiper-pagination"></div>
-</div>
-			<div class="info">
-			<div class="product-name">
-					<span class="category">${category}</span>
-				</div>
-				<p class="title">${name}</p>
-				<div class="all-price">
-					<p class="price"><span>₩</span>${price}</p>
-					<p class="sale"><del><span>₩</span>${sale}</del></p>
-				<div>
+	<div class="product" data-id=${i}>
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="${imgUrl1}" alt=${name}></div>
+				<div class="swiper-slide"><img src="${imgUrl2}" alt=${name}></div>
+				<div class="swiper-slide"><img src="${imgUrl3}" alt=${name}></div>
 			</div>
+		<div class="swiper-pagination"></div>
+			</div>
+		<div class="info">
+			<div class="product-name">
+				<span class="category">${category}</span>
+			</div>
+		<p class="title">${name}</p>
+			<div class="all-price">
+				<p class="price"><span>₩</span>${price}</p>
+				<p class="sale"><del><span>₩</span>${sale}</del></p>
+			</div>
+		</div>
 	</div>
 	`
 			$('.main .container .products').append(html);

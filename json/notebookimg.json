@@ -1,7 +1,7 @@
 [{
     "image": ["images/samsung1.png", "images/samsung2.png", "images/samsung3.png"],
     "brand": "SAMSUNG",
-    "product": "삼성전자 2019 노트북 Pen S NT930SBE-K58",
+    "product": "리퍼마켓 삼성전자 2019 노트북 Pen S NT930SBE-K58",
     "refurb": "S급리퍼",
     "sale": "1,700,000원",
     "price": "1,400,000원",
@@ -16,7 +16,7 @@
   {
     "image": ["images/samsung2.png", "images/samsung1.png", "images/samsung3.png"],
     "brand": "SAMSUNG",
-    "product": "삼성전자 노트북7 프로 NT751BBC",
+    "product": "리퍼마켓 게이밍 표준 삼성전자 노트북7 프로 NT751BBC",
     "refurb": "S급리퍼",
     "sale": "859,000원",
     "price": "759,000원",
@@ -31,7 +31,7 @@
   {
     "image": ["images/samsung3.png", "images/samsung2.png", "images/samsung1.png"],
     "brand": "SAMSUNG",
-    "product": "삼성전자 노트북9 metal NT901X5H",
+    "product": "리퍼마켓 게이밍 표준 삼성전자 노트북9 metal NT901X5H",
     "refurb": "S급리퍼",
     "sale": "439,450원",
     "price": "389,450원",
