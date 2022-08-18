@@ -31,19 +31,19 @@
 ------------------
 ## 메인페이지
 
-<img src="images/banner.gif" width="850">
+<img src="images/banner.gif" width="300">
 
 ### 움직이는 배너
 - 사이트에 접속하면 상단에 보이는 배너가 우측에서 좌측으로 자동으로 넘어가고 사용자가 직접 넘길수도 있습니다.
 
 
-<img src="images/gnb.gif" width="850">
+<img src="images/gnb.gif" width="300">
 
 ### GNB
 - GNB 메뉴가 보이지 않다가 상단에 메뉴를 누르면 옆에서 GNB가 나옵니다.
 
 
-<img src="images/slide-menu.gif" width="850">
+<img src="images/slide-menu.gif" width="300">
 
 
 ### SLIDE-MENU
@@ -51,14 +51,14 @@
 
 ------------------
 
-<img src="images/list.gif" width="850">
+<img src="images/list.gif" width="300">
 
 ## 💻 제품 페이지
 
 - 제품들은 전부 JSON으로 관리하여 상단에 브랜드를 누르면 그에 맞는 제품들을 목록화 해서 보여줍니다.
 
 
-<img src="images/modal.gif" width="850">
+<img src="images/modal.gif" width="300">
 
 ## 상세 페이지
 
